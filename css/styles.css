@@ -1,0 +1,241 @@
+
+#background {
+    margin: 0;
+    min-height:535px;
+    width:100%;
+    background-image: url("https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-project-master/default/dw94f74ce8/images/project/WLRECIP-644/Ice-Cream-Cone-Cupcakes-01.jpg?sw=800&sh=800");
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+
+#toprow .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; 
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#toprow .btn:hover{
+    background:#f6f6f6;
+    /* color:#0F4970; */
+    text-decoration:underline;
+}
+
+ul {
+    margin-left:30px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 40px;
+}
+h3{
+    margin-left:3%;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 25px;
+}
+
+h4 {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size:100px;
+}
+
+
+h5 {
+    margin-left:5%;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 20px;
+}
+
+iframe {
+    margin-left:5%;
+}
+
+#classics{
+    font-size: 25px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+#menu{
+    font-size: 20px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+h9{
+    font-size: 15px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+
+#heading{
+    font-size: 50px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    
+}
+#description{
+    text-align: center;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    margin-left:10%;
+    border: 5px solid pink;
+    border-radius:20px;
+    font-size: 30px;
+    margin-right:20%;
+    padding: 1em;
+  
+}
+
+#description2 {
+    text-align: center;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    margin-left:20%;
+    border: 5px solid rgb(106, 196, 234);
+    border-radius:20px;
+    font-size: 30px;
+    margin-right:10%;
+    padding: 1em;;
+
+}
+#description3 {
+    text-align: center;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    margin-left:8%;
+    border: 5px solid rgb(178, 230, 128);
+    border-radius:20px;
+    font-size: 30px;
+    margin-right:20%;
+    padding: 1em;;
+
+    /* display: inline-block; */
+}
+
+#gallery div {
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px auto;
+  }
+  
+#gallery span {
+    flex: 0 1 10%;
+    cursor: pointer;
+    font-size: 0;
+    overflow: hidden;
+  }
+  
+#gallery #img2 img {
+    width: 100%;
+    pointer-events: none;
+  }
+  
+
+
+#gallery .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; 
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#gallery .btn:hover{
+    background:#f6f6f6;
+    /* color:#0F4970; */
+    text-decoration:underline;
+}
+
+#description div{
+    width:1px;
+    height: 50px;
+}
+
+form {
+    width:50%;
+    margin:60px;
+    border:5px solid pink;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form legend {
+    font-weight:bold;
+    text-align:center;
+    color:black;
+    margin:5px;
+}
+
+form label {
+    font-weight:bold;
+    text-align:center;
+}
+
+fieldset {
+    margin:10px;
+    border:5px solid pink;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#contact-info {
+    margin:10px;
+    border:5px solid pink;
+    border-radius: 20px;
+    padding: 10px;
+    float: right;
+}
+
+#intro {
+    background: linear-gradient(to bottom, #f3c9d0 0%, #fbb4d7 100%);
+    width: 100%;
+    height:60vh;
+    text-align: center;
+}
+
+#text {
+    width: 50%;
+    
+    
+    list-style-position: inside;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; 
+    font-size: 40px;
+    
+}
+
+ul {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; 
+    font-size: 30px;
+    
+    list-style-position: inside;
+}
+#text{
+    float:left;
+}
+
+.owl-carousel owl-theme {
+    float:right;
+}
+
+#table {
+
+    font-size:30px;
+    float:right;
+    margin-right:15%;
+    border:5px solid pink;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+

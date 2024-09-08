@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Mia Li">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Mia Li professional website">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/scripts.js" > </script> 
+
+    
+</head>
+
+<body>
+    <div id="container">
+     <!-- header -->
+    <div id="toprow">
+        <h1>
+            
+            &nbsp;&nbsp;
+            <a href="index.html"> <img src="images/logo.jpg" width=70 height=70 alt="logo"></a>
+            <input type="button" onclick="window.location.href='menu.html';" class="btn btn-warning btn-lg" value="Menu">
+
+            <input type="button" onclick="window.location.href='locations.html';" class="btn btn-warning btn-lg" value="Locations & Hours">
+            
+            <input type="button" onclick="window.location.href='promotions.html';" class="btn btn-warning btn-lg" value="Promotions">
+        
+            <input type="button" onclick="window.location.href='about-us.html';" class="btn btn-warning btn-lg" value="About Us">
+
+            <input type="button" onclick="window.location.href='contact-us.html';" class="btn btn-warning btn-lg" value="Contact Us">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:info@happydaydessertfactory.com"><img src="images/email.jpg" width="52" height="40" alt="mail Icon"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/happydaydessertfactory/?igshid=YmMyMTA2M2Y%3D"><img src="images/instagram.jpg" width="52" height="40" alt="instagram Icon"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/happydaydessertfactory?mibextid=LQQJ4d"><img src="images/facebook.png" width="46" height="40" alt="facebook Icon"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://pittsburghmagazine.com/happy-day-dessert-factory-brings-frozen-delights-to-the-north-side/"><img src="images/article.jpg" width="45" height="45" alt="phone Icon"></a>
+            </h1>
+    
+        
+            <div id="content">
+                <h3>&nbsp;&nbsp;&nbsp;Contact Me</h3> 
+                <div id="mydays" ></div>
+                 <!-- contact form -->
+                <form onsubmit="return validate()">
+                    <fieldset> 
+                        <legend>Our Info</legend>
+                        
+                            <strong>Phone Number: </strong>  (412) 872-0117<br><br>
+                            <strong>Email: </strong>  info@happydaydessertfactory.com
+                      
+                    </fieldset>
+                   
+                    <fieldset>
+                    <legend>Please use the form below to subscribe to the mailing list. </legend>
+                    <!-- Include input fields for name and date of birth here -->
+                    <label for="name"><strong>Name</strong> (required):</label><br>
+                    <input type="text" id="name" name="name" value="Your Name" size= "20" maxlength="250" required><br><br>
+        
+                    <label for="birthday"><strong>Birthday</strong> (required):</label><br>
+                    <input type="date" id="birthday" name="birthday" value="" size="20" required><br><br>
+
+                    <label for="zipcode"><strong>ZipCode:</strong></label><br>
+                    <input type="tel" id="zipcode" name="zipcode" value="" size="5" maxlength="5" required><br><br>
+                
+
+                    <label for="cbox"><strong>Please indicate if you want to receive updates via email:</strong></label><br>
+                    <input type="checkbox" id="cbox" name="cbox" value="Yes">
+                    <label for="cbox"> Yes, please update me!</label><br><br>
+            
+                    <label for="email"><strong>Please provides your email address:</strong></label><br>
+                    <input type="email" id="email" name="email" value="abc@defg.com"><br><br>
+                        
+                    <label for="phonenum"><strong>Please provide your phone number (US format: nnn-nnn-nnnn) (required):</strong></label><br>
+                    <input type="tel" id="phonenum" name="phonenum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                </fieldset>
+                    <fieldset>
+                    <label for="message"><strong>Customer Feedback:</strong></label><br>
+                    <textarea id="message" name="message" rows="10" cols="50" maxlength="1000"></textarea><br>
+                </fieldset>
+                <fieldset>
+                <input type ="image" src="images/submit.png" width = "100" height = "40" alt="Submit" name= "btnimage">
+                </fieldset>
+            </form>
+
+           
+
+
+                   
+                    
+            </div>
+        </div>
+    <footer>
+        <hr>
+        &copy; Happy Day Dessert Factory 2023<br>
+    </footer>
+    </div> 
+</body>
+</html>
